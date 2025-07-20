@@ -16,7 +16,3 @@ A simple command-line Java assistant that tracks your mood and suggests activiti
    
    java Mental_Health_Simulation_Assistant.Executer
 
-## 📄 Features
-- Mood logging
-- Inspirational quotes
-- Breathing exercises
