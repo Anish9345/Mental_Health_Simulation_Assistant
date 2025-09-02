@@ -25,7 +25,8 @@ public class Assistant {
         System.out.println("Logging the mood history");
         user.addMoodHistory(mood);
 
-        qp.getRandomQuote();
+        String randomQuote = qp.getRandomQuote();
+        System.out.println("Here's a quote for you: " + randomQuote);
 
         System.out.println("Would you like to do some Exercise?(yes/no):");
         String ans = sc.nextLine().trim().toLowerCase();
@@ -44,3 +45,4 @@ public class Assistant {
     }
 
 }
+
